@@ -1,0 +1,16 @@
+strict graph G {
+    graph [fontname = "Handlee", size="7!"];
+    node [fontname = "Handlee", shape = record];
+    edge [fontname = "Handlee"];
+	n37[label = "<l> | <m> 37	| <r>"];
+	n31[label = "<l> | <m> 31	| <r>"];
+	n29[label = "<l> | <m> 29	| <r>"];
+	n23[label = "<l> | <m> 23	| <r>"];
+	n17[label = "<l> | <m> 17	| <r>"];
+	n11[label = "<l> | <m> 11	| <r>"];
+	n37:r -- n29:m;
+	n29:l -- n31:m;
+	n29:r -- n17:m;
+	n17:l -- n23:m;
+	n17:r -- n11:m;
+}

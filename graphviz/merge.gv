@@ -1,0 +1,72 @@
+strict graph {
+    graph [fontname = "Handlee", size="5!"];
+    node [fontname = "Handlee", shape = record];
+    edge [fontname = "Handlee"];
+	n37[label = "<l> | <m> 37	| <r>"];
+	n31[label = "<l> | <m> 31	| <r>"];
+	n13[label = "<l> | <m> 13	| <r>"];
+	n05[label = "<l> | <m> 5	| <r>"];
+	n37:r -- n31:m;
+	n31:l -- n13:m;
+	n31:r -- n05:m;
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="5!"];
+    node [fontname = "Handlee", shape = record];
+    edge [fontname = "Handlee"];
+	n31[label = "<l> | <m> 31	| <r>"];
+	n13[label = "<l> | <m> 13	| <r>"];
+	n05[label = "<l> | <m> 5	| <r>"];
+	n31:l -- n13:m;
+	n31:r -- n05:m;
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="5!"];
+    node [fontname = "Handlee", shape = record];
+    edge [fontname = "Handlee"];
+	n29[label = "<l> | <m> 29	| <r>"];
+	n23[label = "<l> | <m> 23	| <r>"];
+	n17[label = "<l> | <m> 17	| <r>"];
+	n11[label = "<l> | <m> 11	| <r>"];
+	n29:r -- n17:m;
+	n17:l -- n23:m;
+	n17:r -- n11:m;
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="7!"];
+    node [fontname = "Handlee", shape = record];
+    edge [fontname = "Handlee"];
+	n37[label = "<l> | <m> 37	| <r>"];
+	n29[label = "<l> | <m> 29	| <r>", color=red];
+	n23[label = "<l> | <m> 23	| <r>"];
+	n17[label = "<l> | <m> 17	| <r>"];
+	n11[label = "<l> | <m> 11	| <r>"];
+	n37:r -- n29:m;
+	n29:r -- n17:m;
+	n17:l -- n23:m;
+	n17:r -- n11:m;
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="8!"];
+    node [fontname = "Handlee", shape = record];
+    edge [fontname = "Handlee"];
+	n37[label = "<l> | <m> 37	| <r>"];
+	n29[label = "<l> | <m> 29	| <r>"];
+	n23[label = "<l> | <m> 23	| <r>"];
+	n17[label = "<l> | <m> 17	| <r>"];
+	n11[label = "<l> | <m> 11	| <r>"];
+	n31[label = "<l> | <m> 31	| <r>", color=red];
+	n13[label = "<l> | <m> 13	| <r>"];
+	n05[label = "<l> | <m> 5	| <r>"];
+	n37:r -- n29:m;
+	n29:r -- n17:m;
+	n17:l -- n23:m;
+	n17:r -- n11:m;
+	n29:l -- n31:m;
+	n31:l -- n13:m;
+	n31:r -- n05:m;
+}

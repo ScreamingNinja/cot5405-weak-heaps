@@ -1,0 +1,427 @@
+strict graph {
+    graph [fontname = "Handlee", size="15!"];
+    node [fontname = "Handlee", shape = record];
+    edge [fontname = "Handlee"];
+	array[label = "|||||||"];
+	i0[label = "<l> | <m> 37 | <r>"];
+	i1[label = "<l> | <m> 29 | <r>"];
+	i2[label = "<l> | <m> 31 | <r>"];
+	i3[label = "<l> | <m> 17 | <r>"];
+	i4[label = "<l> | <m> 13 | <r>"];
+	i5[label = "<l> | <m> 5 | <r>"];
+	i6[label = "<l> | <m> 23 | <r>"];
+	i7[label = "<l> | <m> 11 | <r>"];
+	array -- i0[style=invis]
+	i0:r -- i1:m;
+	i1:l -- i2:m;
+	i1:r -- i3:m;
+	i2:l -- i4:m;
+	i2:r -- i5:m;
+	i3:l -- i6:m;
+	i3:r -- i7:m;
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "|||||||37"]
+	i1[label = "<l> | <m> 29 | <r>"]
+	i2[label = "<l> | <m> 31 | <r>"]
+	i3[label = "<l> | <m> 17 | <r>"]
+	i4[label = "<l> | <m> 13 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+	i6[label = "<l> | <m> 23 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+	array -- i1[style=invis]
+	i1:l -- i2:m[color=red]
+	i1:r -- i3:m
+	i2:l -- i4:m[color=red]
+	i2:r -- i5:m
+	i3:l -- i6:m
+	i3:r -- i7:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "|||||||37"]
+	i4[label = "<l> | <m> 13 | <r>"][color=red]
+	i2[label = "<l> | <m> 31 | <r>"][color=red]
+	i1[label = "<l> | <m> 29 | <r>"]
+	i3[label = "<l> | <m> 17 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+	i6[label = "<l> | <m> 23 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+	array -- i4[style=invis]
+	array -- i2[style=invis]
+	array -- i1[style=invis]
+	i1:r -- i3:m
+	i2:r -- i5:m
+	i3:l -- i6:m
+	i3:r -- i7:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "|||||||37"]
+	array -- i2[style=invis]
+	array -- i1[style=invis]
+
+
+	i2[label = "<l> | <m> 31 | <r>"][color=red]
+	i4[label = "<l> | <m> 13 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+	i2:r -- i4:m
+	i4:l -- i5:m
+
+	i1[label = "<l> | <m> 29 | <r>"][color=red]
+	i3[label = "<l> | <m> 17 | <r>"]
+	i6[label = "<l> | <m> 23 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+	i1:r -- i3:m
+	i3:l -- i6:m
+	i3:r -- i7:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "|||||||37"]
+	array -- i2[style=invis]
+
+	i2[label = "<l> | <m> 31 | <r>"]
+	i4[label = "<l> | <m> 13 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+	i1[label = "<l> | <m> 29 | <r>"]
+	i3[label = "<l> | <m> 17 | <r>"]
+	i6[label = "<l> | <m> 23 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+
+	i2:r -- i1:m
+	i1:l -- i4:m
+	i4:l -- i5:m
+
+	i1:r -- i3:m
+	i3:l -- i6:m
+	i3:r -- i7:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "||||||31|37"]
+	array -- i1[style=invis]
+
+	i1[label = "<l> | <m> 29 | <r>"]
+	i4[label = "<l> | <m> 13 | <r>"]
+	i3[label = "<l> | <m> 17 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+	i6[label = "<l> | <m> 23 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+
+	i1:l -- i4:m[color=red]
+	i4:l -- i5:m[color=red]
+	i1:r -- i3:m
+	i3:l -- i6:m
+	i3:r -- i7:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "||||||31|37"]
+	array -- i5[style=invis]
+	array -- i4[style=invis]
+	array -- i1[style=invis]
+
+	i1[label = "<l> | <m> 29 | <r>"]
+	i4[label = "<l> | <m> 13 | <r>"][color=red]
+	i5[label = "<l> | <m> 5 | <r>"][color=red]
+	i3[label = "<l> | <m> 17 | <r>"]
+	i6[label = "<l> | <m> 23 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+
+	i1:r -- i3:m
+	i3:l -- i6:m
+	i3:r -- i7:m
+}
+
+
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "||||||31|37"]
+	array -- i4[style=invis]
+	array -- i1[style=invis]
+
+	i1[label = "<l> | <m> 29 | <r>"][color=red]
+	i4[label = "<l> | <m> 13 | <r>"][color=red]
+	i5[label = "<l> | <m> 5 | <r>"]
+	i3[label = "<l> | <m> 17 | <r>"]
+	i6[label = "<l> | <m> 23 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+
+	i4:r -- i5:m
+
+	i1:r -- i3:m
+	i3:l -- i6:m
+	i3:r -- i7:m
+}
+
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "||||||31|37"]
+	array -- i1[style=invis]
+
+	i1[label = "<l> | <m> 29 | <r>"]
+	i4[label = "<l> | <m> 13 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+	i3[label = "<l> | <m> 17 | <r>"]
+	i6[label = "<l> | <m> 23 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+
+	i1:r -- i4:m
+	i4:r -- i5:m
+	i4:l -- i3:m
+	i3:l -- i6:m
+	i3:r -- i7:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "|||||29|31|37"]
+	array -- i4[style=invis]
+
+	i4[label = "<l> | <m> 13 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+	i3[label = "<l> | <m> 17 | <r>"]
+	i6[label = "<l> | <m> 23 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+
+	i4:r -- i5:m
+	i4:l -- i3:m[color=red]
+	i3:l -- i6:m[color=red]
+	i3:r -- i7:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "|||||29|31|37"]
+	array -- i6[style=invis]
+	array -- i3[style=invis]
+	array -- i4[style=invis]
+
+	i4[label = "<l> | <m> 13 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+	i3[label = "<l> | <m> 17 | <r>"]
+	i6[label = "<l> | <m> 23 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+
+	i4:r -- i5:m
+	i3:r -- i7:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "|||||29|31|37"]
+	array -- i6[style=invis]
+	array -- i4[style=invis]
+
+	i4[label = "<l> | <m> 13 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+	i3[label = "<l> | <m> 17 | <r>"]
+	i6[label = "<l> | <m> 23 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+
+	i6:r -- i3:m
+	i4:r -- i5:m
+	i3:r -- i7:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "|||||29|31|37"]
+	array -- i6[style=invis]
+
+	i4[label = "<l> | <m> 13 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+	i3[label = "<l> | <m> 17 | <r>"]
+	i6[label = "<l> | <m> 23 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+
+	i6:r -- i4:m
+	i4:l -- i3:m
+	i4:r -- i5:m
+	i3:r -- i7:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "||||23|29|31|37"]
+	array -- i4[style=invis]
+
+	i4[label = "<l> | <m> 13 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+	i3[label = "<l> | <m> 17 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+
+	i4:l -- i3:m[color=red]
+	i4:r -- i5:m
+	i3:r -- i7:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "||||23|29|31|37"]
+	array -- i3[style=invis]
+	array -- i4[style=invis]
+
+	i3[label = "<l> | <m> 17 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+	i4[label = "<l> | <m> 13 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+
+	i4:r -- i5:m
+	i3:r -- i7:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "||||23|29|31|37"]
+	array -- i3[style=invis]
+	array -- i4[style=invis]
+
+	i3[label = "<l> | <m> 17 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+	i4[label = "<l> | <m> 13 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+
+	i3:r -- i4:m
+	i4:l -- i7:m
+	i4:r -- i5:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "|||17|23|29|31|37"]
+	array -- i4[style=invis]
+
+	i4[label = "<l> | <m> 13 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+
+	i4:l -- i7:m[color=red]
+	i4:r -- i5:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "|||17|23|29|31|37"]
+	array -- i7[style=invis]
+	array -- i4[style=invis]
+
+	i4[label = "<l> | <m> 13 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+
+	i4:r -- i5:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "|||17|23|29|31|37"]
+	array -- i4[style=invis]
+
+	i4[label = "<l> | <m> 13 | <r>"]
+	i7[label = "<l> | <m> 11 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+
+	i4:r -- i7:m
+	i7:l -- i5:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "||13|17|23|29|31|37"]
+	array -- i7[style=invis]
+
+	i7[label = "<l> | <m> 11 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+
+	i7:l -- i5:m[color=red]
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "||13|17|23|29|31|37"]
+	array -- i5[style=invis]
+	array -- i7[style=invis]
+
+	i7[label = "<l> | <m> 11 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "||13|17|23|29|31|37"]
+	array -- i7[style=invis]
+
+	i7[label = "<l> | <m> 11 | <r>"]
+	i5[label = "<l> | <m> 5 | <r>"]
+
+	i7:r -- i5:m
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "|11|13|17|23|29|31|37"]
+	array -- i5[style=invis]
+	i5[label = "<l> | <m> 5 | <r>"]
+}
+
+strict graph {
+    graph [fontname = "Handlee", size="15!"]
+    node [fontname = "Handlee", shape = record]
+    edge [fontname = "Handlee"]
+	array[label = "5|11|13|17|23|29|31|37"]
+}

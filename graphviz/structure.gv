@@ -1,0 +1,75 @@
+strict graph {
+    graph [fontname = "Handlee", size="15!"];
+    node [fontname = "Handlee", shape = record];
+    edge [fontname = "Handlee"];
+	array[label = "<i0> 37 | <i1> 29 | <i2> 31 | <i3> 17 | <i4> 13 | <i5> 5 | <i6> 23 | <i7> 11"];
+	edge [style=dashed color=gray]
+	array:i0 -- i0:m
+	array:i1 -- i1:m
+	array:i2 -- i2:m
+	array:i3 -- i3:m
+	array:i4 -- i4:m
+	array:i5 -- i5:m
+	array:i6 -- i6:m
+	array:i7 -- i7:m
+
+	edge [weight=10000 style=solid color=black]
+	i0[label = "<l> i = 0 | <m> 37 | <r>"];
+	i1[label = "<l> i = 1 | <m> 29 | <r>"];
+	i2[label = "<l> i = 2 | <m> 31 | <r>"];
+	i3[label = "<l> i = 3 | <m> 17 | <r>"];
+	i4[label = "<l> i = 4 | <m> 13 | <r>"];
+	i5[label = "<l> i = 5 | <m> 5 | <r>"];
+	i6[label = "<l> i = 6 | <m> 23 | <r>"];
+	i7[label = "<l> i = 7 | <m> 11 | <r>"];
+	i0:r -- i1:m;
+	i1:l -- i2:m;
+	i1:r -- i3:m;
+	i2:l -- i4:m;
+	i2:r -- i5:m;
+	i3:l -- i6:m;
+	i3:r -- i7:m;
+}
+
+
+strict graph G {
+    graph [fontname = "Handlee", size="15!"];
+    node [fontname = "Handlee", shape = record];
+    edge [fontname = "Handlee"];
+	i0[label = "<l> i = 0 | <m> 37 | <r> rev = 0"];
+	i1[label = "<l> i = 1 | <m> 29 | <r> rev = 0", fontcolor=red];
+	i2[label = "<l> i = 2 | <m> 31 | <r> rev = 0", color=red];
+	i3[label = "<l> i = 3 | <m> 17 | <r> rev = 0", color=red];
+	i4[label = "<l> i = 4 | <m> 13 | <r> rev = 0"];
+	i5[label = "<l> i = 5 | <m> 5 | <r> rev = 0"];
+	i6[label = "<l> i = 6 | <m> 23 | <r> rev = 0"];
+	i7[label = "<l> i = 7 | <m> 11 | <r> rev = 0"];
+	i0:r -- i1:m;
+	i1:l -- i2:m;
+	i1:r -- i3:m;
+	i2:l -- i4:m;
+	i2:r -- i5:m;
+	i3:l -- i6:m;
+	i3:r -- i7:m;
+}
+
+strict graph G {
+    graph [fontname = "Handlee", size="15!"];
+    node [fontname = "Handlee", shape = record];
+    edge [fontname = "Handlee"];
+	i0[label = "<l> i = 0 | <m> 37 | <r> rev = 0"];
+	i1[label = "<l> i = 1 | <m> 29 | <r> rev = 1", fontcolor=red];
+	i2[label = "<l> i = 2 | <m> 17 | <r> rev = 0", color=red];
+	i3[label = "<l> i = 3 | <m> 31 | <r> rev = 0", color=red];
+	i4[label = "<l> i = 4 | <m> 13 | <r> rev = 0"];
+	i5[label = "<l> i = 5 | <m> 5 | <r> rev = 0"];
+	i6[label = "<l> i = 6 | <m> 23 | <r> rev = 0"];
+	i7[label = "<l> i = 7 | <m> 11 | <r> rev = 0"];
+	i0:r -- i1:m;
+	i1:l -- i2:m;
+	i1:r -- i3:m;
+	i2:l -- i4:m;
+	i2:r -- i5:m;
+	i3:l -- i6:m;
+	i3:r -- i7:m;
+}
